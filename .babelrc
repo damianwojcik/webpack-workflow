@@ -6,8 +6,13 @@
                     "> 1%",
                     "last 2 versions"
                 ]
-            }
-        }],
-        "react"
+            },
+            "useBuiltIns": "entry"
+         }],
+         "stage-2",
+         "react"
+     ],
+    "plugins": [
+        "syntax-dynamic-import"
     ]
 }

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BroswerRouter } from 'react-router-dom';
 
 import './index.css';
+import 'babel-polyfill';
 import App from './App';
 
 const app = (
